@@ -28,7 +28,7 @@ LINK_OPTS = select({
     "//conditions:default": ["-lpthread"],
 })
 
-LINK_OPTS += ['-Wl,-rpath,/hepgpu1/data3/ibabusch/.anaconda/envs/tf/lib']
+LINK_OPTS += ['-Wl,-rpath,/hepgpu1-data3/ibabusch/.anaconda/envs/tf/lib']
 
 load(
     "protobuf",
